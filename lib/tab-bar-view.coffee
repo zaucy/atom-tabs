@@ -62,7 +62,7 @@ class TabBarView extends View
         if which is 1 and not target.classList.contains('close-icon')
           @pane.activateItem(tab.item)
           @pane.activate()
-        false
+        true
       else if which is 3
         @find('.right-clicked').removeClass('right-clicked')
         tab.classList.add('right-clicked')
